@@ -1,0 +1,56 @@
+body {
+    margin: 0;
+}
+
+.navbar {
+    border-bottom: 1px solid rgba(107, 104, 104, 0.726);
+}
+
+.btn-add-task {
+    background-color: rgb(99, 47, 122)!important;
+    border-color: rgb(99, 47, 122)!important;
+    transition: all 0.3s ease-in;
+}
+
+.btn-add-task:hover {
+    background-color: rgb(84, 39, 103)!important;
+    border-color: rgb(84, 39, 103)!important;
+}
+
+.parent-container {
+    margin: 1rem;
+    display: flex;
+}
+
+.container {
+    background-color: dimgrey;
+    padding: 0.5rem;
+    margin: 0.5rem;
+    min-height: 50vh;
+}
+
+.todo-container {
+    min-height: 50vh;
+}
+
+.in-progress-container {
+    background-color: rgb(49, 79, 92);
+}
+
+.done-container {
+    background-color: rgb(40, 95, 61);
+}
+
+.draggable {
+    cursor: move;
+    touch-action: none; /* Prevent default scrolling when touching draggable elements */
+}
+
+.draggable.dragging {
+    opacity: 0.5;
+}
+
+.card {
+    margin: 0.5rem 0 0.5rem 0;
+    transition: position 0.2s ease;
+}
